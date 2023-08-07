@@ -6,12 +6,8 @@ export default function Navbar() {
   const { currentUser } = useContext(AuthContext);
   const signout = () => {
     signOut(auth)
-      .then(() => {
-        // Sign-out successful.
-      })
-      .catch((error) => {
-        // An error happened.
-      });
+      .then(() => {})
+      .catch((error) => {});
   };
   return (
     <div className="navbar">
