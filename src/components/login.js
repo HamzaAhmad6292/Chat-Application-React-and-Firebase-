@@ -4,7 +4,7 @@ import { BrowserRouter, Link, Route, Switch, Routes } from "react";
 import { useNavigate } from "react-router-dom";
 import {
   getAuth,
-  signInWithPopup,
+  signInWithPopup, 
   GoogleAuthProvider,
   updateProfile,
 } from "firebase/auth";
