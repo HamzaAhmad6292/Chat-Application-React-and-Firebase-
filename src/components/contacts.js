@@ -6,7 +6,7 @@ import Chats from "./Chats";
 
 function Contacts({ selectUser, setSelectUser }) {
   return (
-    <div className=" sidebar">
+    <div className=" sidebar bg-[#333333]">
       <Navbar></Navbar>
       <Search setSelectUser={setSelectUser} selectUser={selectUser} />
       <Chats setSelectUser={setSelectUser} selectUser={selectUser} />

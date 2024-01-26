@@ -13,7 +13,7 @@ function Chat_box({ setSelectUser }) {
   };
   return (
     <div className="chat">
-      <div className="chatInfo">
+      <div className="chatInfo" >
         <button
           onClick={goback}
           className="flex items-center text-white hover:text-gray-300 transition-colors focus:outline-none"
